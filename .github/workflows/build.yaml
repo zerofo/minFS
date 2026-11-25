@@ -23,7 +23,7 @@ jobs:
           git config --global --add safe.directory '*' && \
           
           git submodule update --init --remote && \
-          make -C libs/libnx/nx install -j$(nproc) && \
+          make -C libnx install -j$(nproc) && \
           make -j2
           make nro -j2
           mkdir dist/atmosphere/contents/420000000007E5AC/ -p
