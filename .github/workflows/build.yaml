@@ -33,7 +33,7 @@ jobs:
           cp toolbox.json dist/atmosphere/contents/420000000007E5AC/
           touch dist/atmosphere/contents/420000000007E5AC/boot2.flag
           cd dist
-          zip -r minFS.zip .
+          zip -r ../minFS.zip .
           
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
