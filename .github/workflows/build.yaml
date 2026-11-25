@@ -27,6 +27,7 @@ jobs:
           make -j2
           make nro -j2
           mkdir dist/atmosphere/contents/420000000007E5AC/ -p
+          mkdir dist/switch -p
           cp minFS.nro dist/switch/minFS.nro
           cp minFS.nsp dist/atmosphere/contents/420000000007E5AC/exefs.nsp
           cp toolbox.json dist/atmosphere/contents/420000000007E5AC/
